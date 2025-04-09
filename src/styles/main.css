@@ -1,2 +1,8 @@
 @import "tailwindcss";
 
+@import "@fontsource/open-sans";
+
+@import '@fontsource-variable/cabin';
+body {
+    font-family: 'Cabin Variable', sans-serif;
+  }
