@@ -1,49 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/styles/main.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/styles/main.css" />
     <title>EcoProsperity Funds | Contacts</title>
-</head>
-<body>
+  </head>
+  <body>
     <include src="components/nav_bar.html"></include>
     <div class="bg-teal-800 h-70">
-        <div class="text-white text-center font-bold text-4xl">Get in Touch</div>
-        <div class="text-white">
-            <div>
-                <p>Icon here</p>
-                <p>Phone</p>
-            </div>
-            <div>
-                <p>Icon</p>
-                <p>Email</p>
-            </div>
-            <div>
-                <p>icon</p>
-                <p>Social media</p>
-            </div>
+      <div class="text-white text-center font-bold text-4xl pt-8 pb-5">Get in Touch</div>
+      <div class="text-white flex justify-around">
+        <div class="text-center">
+            <h2 class="font-bold text-2xl">Wazih Taosif</h2>
+            <a href="mailto:wtaosif@brooklynsteamcenter.org" class="cursor-pointer block">wtaosif@brooklynsteamcenter.org</a>
+            <a href="Wazih-Taosif.github.io">Wazih-Taosif.github.io</a>
         </div>
-    </div>
-    <div class="flex justify-center">
-        <div class="w-150">
-            <h1 class="text-teal-900 text-2xl">Message Us</h1>
-            <p>If you want to contact us directly, or want us to contact you, please fill the form.</p>
+        <div class="text-center">
+            <h2 class="font-bold text-2xl">Jahmere Quiles</h2> 
+            <a href="mailto:jquiles@brooklynsteamcenter.org" class="cursor-pointer block">jquiles@brooklynsteamcenter.org</a>
         </div>
         <div>
-            <form action="">
-                <label for="">Name</label> 
-                <br>
-                <input type="text" class="border-1 rounded-sm">
-                <br>
-                <label for="">Email</label> 
-                <br>
-                <input type="email" class="">
-            </form>
+            <h2 class="font-bold text-2xl">Sanah White</h2>
+            <a href="mailto:swhite2@brooklynsteamcenter.org" class="cursor-pointer block">swhite2@brooklynsteamcenter.org</a>
         </div>
+      </div>
+    </div>
+    <div class="flex justify-center mt-5">
+      <div class="w-120">
+        <h2 class="font-bold text-4xl text-teal-800">Message Us</h2>
+        <p class="w-110 text-lg">
+          If you want to contact us directly, or want us to contact you, please
+          fill the form. We respond within 24 hours.
+        </p>
+      </div>
+      <div>
+        <form action="">
+          <label class="inline-block w-20 font-bold">Name:</label>
+          <input
+            type="text"
+            class="border-1 rounded-sm w-80 mb-2 bg-gray-100"
+            name="name"
+            required
+          />
+          <br />
+          <label class="inline-block w-20 font-bold">Email:</label>
+          <input
+            type="email"
+            class="border-1 rounded-sm w-80 mb-2"
+            name="email"
+            required
+          />
+          <br />
+          <label class="inline-block w-20 font-bold">Phone:</label>
+          <input
+            type="tel"
+            name="phone"
+            class="border-1 rounded-sm w-80 mb-2"
+          />
+          <br />
+          <label class="font-bold">Preferred contact method:</label>
+          <br />
+          <input type="radio" name="preferred-contact" value="email" />
+          <label class="font-bold mr-3">Email</label>
+          <input type="radio" name="preferred-contact" value="phone" />
+          <label class="font-bold">Phone</label>
+          <br />
+          <label class="font-bold">Comments</label>
+          <br />
+          <textarea
+            name="comments"
+            class="border-1 rounded-sm w-100 h-20"
+          ></textarea>
+          <br />
+          <input
+            type="reset"
+            class="bg-gray-300 p-2 rounded-sm cursor-pointer border-none"
+          />
+          <input
+            type="submit"
+            class="bg-lime-500 p-2 rounded-sm cursor-pointer border-none"
+          />
+        </form>
+      </div>
     </div>
     <div class="fixed bottom-0 right-0 mb-4 mr-4 h-20 w-20 opacity-60">
-        <img src="/src/assets/logo.png" alt="Logo" class="w-32 h-auto rounded-4xl size-0.5">
+      <img
+        src="/src/assets/logo.png"
+        alt="Logo"
+        class="w-32 h-auto rounded-4xl size-0.5"
+      />
     </div>
-</body>
+  </body>
 </html>
