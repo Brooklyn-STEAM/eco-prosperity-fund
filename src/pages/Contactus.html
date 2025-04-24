@@ -8,38 +8,74 @@
   </head>
   <body>
     <include src="components/nav_bar.html"></include>
-    <div class="bg-teal-800 h-70">
-      <div class="text-white text-center font-bold text-4xl pt-8 pb-5">Get in Touch</div>
+    <div class="bg-teal-800 h-60">
+      <div class=" text-white text-center font-bold sm:text-sm md:text-2xl lg:text-5xl  ">
+        Get in Touch
+      </div>
       <div class="text-white flex justify-around">
         <div class="text-center">
-            <h2 class="font-bold text-2xl">Wazih Taosif</h2>
-            <a href="mailto:wtaosif@brooklynsteamcenter.org" class="cursor-pointer block">wtaosif@brooklynsteamcenter.org</a>
-            <a href="Wazih-Taosif.github.io">Wazih-Taosif.github.io</a>
+          <h2 class="font-bold text-3xl">Wazih Taosif</h2>
+          <a
+            href="mailto:wtaosif@brooklynsteamcenter.org"
+            class="cursor-pointer block mb-2 mt-2 hover:text-lime-200"
+            >wtaosif@brooklynsteamcenter.org</a
+          >
+          <a
+            href="https://wazih-taosif.github.io/"
+            target="_blank"
+            class="hover:text-lime-200"
+            >Wazih-Taosif.github.io</a
+          >
         </div>
         <div class="text-center">
-            <h2 class="font-bold text-2xl">Jahmere Quiles</h2> 
-            <a href="mailto:jquiles@brooklynsteamcenter.org" class="cursor-pointer block">jquiles@brooklynsteamcenter.org</a>
+          <h2 class="font-bold text-3xl">Jahmere Quiles</h2>
+          <a
+            href="mailto:jquiles@brooklynsteamcenter.org"
+            class="cursor-pointer block mb-2 mt-2 hover:text-lime-200"
+            >jquiles@brooklynsteamcenter.org</a
+          >
+          <a
+            href="https://jahmerestacks.github.io/"
+            target="_blank"
+            class="hover:text-lime-200"
+            >JahmereStacks.github.io</a
+          >
         </div>
-        <div>
-            <h2 class="font-bold text-2xl">Sanah White</h2>
-            <a href="mailto:swhite2@brooklynsteamcenter.org" class="cursor-pointer block">swhite2@brooklynsteamcenter.org</a>
+        <div class="text-center">
+          <h2 class="font-bold text-3xl">Sanah White</h2>
+          <a
+            href="mailto:swhite2@brooklynsteamcenter.org"
+            class="cursor-pointer block mb-2 mt-2 hover:text-lime-200"
+            >swhite2@brooklynsteamcenter.org</a
+          >
+          <a
+            href="https://sanahw7.github.io/"
+            target="_blank"
+            class="hover:text-lime-200"
+            >Sanahw7.github.io</a
+          >
         </div>
       </div>
     </div>
-    <div class="flex justify-center mt-5">
+    <div class="flex justify-center mt-5 items-center">
       <div class="w-120">
         <h2 class="font-bold text-4xl text-teal-800">Message Us</h2>
-        <p class="w-110 text-lg">
+        <p class="w-90 text-lg">
           If you want to contact us directly, or want us to contact you, please
           fill the form. We respond within 24 hours.
         </p>
+        <p class="w-90 text-lg mt-5">Email us in order to donate for the non-profit program.</p>
       </div>
       <div>
-        <form action="">
+        <form
+          action="https://form-to-email.steam-center.workers.dev/"
+          method="post"
+        >
+        <input name="send-to" value="haq.wazih@gmail.com" hidden>
           <label class="inline-block w-20 font-bold">Name:</label>
           <input
             type="text"
-            class="border-1 rounded-sm w-80 mb-2 bg-gray-100"
+            class="border-1 rounded-sm w-80 mb-2"
             name="name"
             required
           />
