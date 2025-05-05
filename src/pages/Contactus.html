@@ -8,70 +8,93 @@
   </head>
   <body>
     <include src="components/nav_bar.html"></include>
-    <div class="bg-teal-800 h-125 lg:h-60">
-      <div class=" text-white text-center font-bold text-5xl pt-5 pb-5 sm:text-4xl md:text-5xl lg:text-5xl  ">
+    <div class="bg-teal-800 h-160 lg:h-120">
+      <div
+        class="text-white text-center font-bold text-5xl pt-5 pb-5 mb-5 sm:text-4xl md:text-5xl lg:text-5xl"
+      >
         Get in Touch
       </div>
-      <div class="text-white lg:flex lg:justify-around">
+      <div class="text-white lg:flex lg:justify-center lg:pb-10">
         <div class="text-center mb-8 text-xl">
           <h2 class="font-bold text-3xl md:text-4xl">Wazih Taosif</h2>
           <a
             href="mailto:wtaosif@brooklynsteamcenter.org"
-            class=" text-lime-100 cursor-pointer block mb-2 mt-2 sm:hover:text-lime-200 "
+            class="text-lime-100 cursor-pointer block mb-2 mt-2 underline sm:hover:text-lime-300"
             >wtaosif@brooklynsteamcenter.org</a
           >
           <a
             href="https://wazih-taosif.github.io/"
             target="_blank"
-            class=" text-lime-100 hover:text-lime-200"
+            class="text-lime-100 underline hover:text-lime-300"
             >Wazih-Taosif.github.io</a
           >
         </div>
-        <div class="text-center mb-8 text-xl">
+        <div class="text-center mb-8 text-xl lg:ml-17">
           <h2 class="font-bold text-3xl md:text-4xl">Jahmere Quiles</h2>
           <a
             href="mailto:jquiles@brooklynsteamcenter.org"
-            class="cursor-pointer block mb-2 mt-2 text-lime-100  hover:text-lime-200"
+            class="cursor-pointer block mb-2 mt-2 text-lime-100 underline hover:text-lime-300"
             >jquiles@brooklynsteamcenter.org</a
           >
           <a
             href="https://jahmerestacks.github.io/"
             target="_blank"
-            class="text-lime-100 hover:text-lime-200"
+            class="text-lime-100 underline hover:text-lime-300"
             >JahmereStacks.github.io</a
           >
         </div>
+      </div>
+      <div class="text-white lg:flex lg:justify-center">
         <div class="text-center mb-8 text-xl">
           <h2 class="font-bold text-3xl md:text-4xl">Sanah White</h2>
           <a
             href="mailto:swhite2@brooklynsteamcenter.org"
-            class="cursor-pointer block mb-2 mt-2 text-lime-100  hover:text-lime-200"
+            class="cursor-pointer block mb-2 mt-2 text-lime-100 underline hover:text-lime-300"
             >swhite2@brooklynsteamcenter.org</a
           >
           <a
             href="https://sanahw7.github.io/"
             target="_blank"
-            class="text-lime-100 hover:text-lime-200"
+            class="text-lime-100 underline hover:text-lime-300"
             >Sanahw7.github.io</a
+          >
+        </div>
+        <div class="text-center mb-8 text-xl lg:ml-17">
+          <h2 class="font-bold text-3xl md:text-4xl">Jayden Bethune</h2>
+          <a
+            href="mailto:jbethune@brooklynsteamcenter.org"
+            class="cursor-pointer block mb-2 mt-2 text-lime-100 underline hover:text-lime-300"
+            >jbethune@brooklynsteamcenter.org</a
           >
         </div>
       </div>
     </div>
     <div class="mt-5 ml-5 lg:flex lg:justify-center">
       <div class="w-120 sm:w-150 lg:w-120">
-        <h2 class="font-bold text-4xl text-teal-800 md:text-5xl lg:mt-5 lg:mb-5">Message Us</h2>
-        <p class="w-90 text-xl sm:text-2xl md:text-3xl md:w-120 lg:w-90 lg:text-2xl">
+        <h2
+          class="font-bold text-4xl text-teal-800 md:text-5xl lg:mt-5 lg:mb-5"
+        >
+          Message Us
+        </h2>
+        <p
+          class="w-90 text-xl sm:text-2xl md:text-3xl md:w-120 lg:w-90 lg:text-2xl"
+        >
           If you want to contact us directly, or want us to contact you, please
-          fill the form <span class="lg:hidden">below</span>. We respond within 24 hours.
+          fill the form <span class="lg:hidden">below</span>. We respond within
+          24 hours.
         </p>
-        <p class="w-90 text-xl mt-3 mb-5 sm:text-2xl md:w-120 md:text-3xl lg:text-2xl">Email us in order to donate for the non-profit program.</p>
+        <p
+          class="w-90 text-xl mt-3 mb-5 sm:text-2xl md:w-120 md:text-3xl lg:text-2xl"
+        >
+          Email us in order to donate for the non-profit program.
+        </p>
       </div>
       <div class="text-xl sm:text-2xl mb-10">
         <form
           action="https://form-to-email.steam-center.workers.dev/"
           method="post"
         >
-        <input name="send-to" value="haq.wazih@gmail.com" hidden>
+          <input name="send-to" value="haq.wazih@gmail.com" hidden />
           <label class="inline-block w-20 font-bold">Name:</label>
           <input
             type="text"
