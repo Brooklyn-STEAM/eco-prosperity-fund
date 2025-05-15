@@ -8,4 +8,6 @@
 body {
   font-family: "Cabin Variable", sans-serif;
 }
-
+@theme {
+  --breakpoint-xs: 28rem;
+}
